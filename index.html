@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,192 +8,202 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="page-header">
+    <div class="container page-header-contents">
+      <div class="logo-and-search-bar-wrapper">
+        <div class="logo-wrapper">
+          <img class="alura-logo" src="static/img/icons/alura-geek-logo.svg" alt="Logo de AluraGeek: Imagen de un mando de videojuegos acompañado con el nombre de la empresa">
+        </div>
+        <div class="search-bar">
+          <input class="search-box" type="search" name="search-box" id="search-box" placeholder="¿Qué deseas buscar?">
+        </div>
+      </div>
+      <a href="#" class="link-btn link-btn-secondary">Login</a>
+      <a class="search-icon-link hidden" href="#">
+        <img src="#" alt="Search icon">
+      </a>
+    </div>
+  </header>
   <main>
-    <header class="page-header">
-      <div class="container page-header-contents">
-        <div class="logo-and-search-bar-wrapper">
-          <div class="logo-wrapper">
-            <img class="alura-logo" src="static/img/icons/alura-geek-logo.svg" alt="Logo de AluraGeek: Imagen de un mando de videojuegos acompañado con el nombre de la empresa">
-          </div>
-          <div class="search-bar">
-            <input class="search-box" type="search" name="search-box" id="search-box" placeholder="¿Qué deseas buscar?">
-          </div>
-        </div>
-        <a href="#" class="link-btn link-btn-secondary">Login</a>
-        <a class="search-icon-link hidden" href="#">
-          <img src="#" alt="Search icon">
-        </a>
+    <section class="hero-area">
+      <div class="container hero-area-contents">
+        <h2 class="hero-area__title">Febrero Promocional</h2>
+        <p class="hero-area__description">Productos seleccionados con 33% de descuento</p>
+        <a href="#" class="link-btn link-btn-primary">Ver Consolas</a>
       </div>
-    </header>
-    <main>
-      <section class="hero-area">
-        <div class="container hero-area-contents">
-          <h2 class="hero-area__title">Febrero Promocional</h2>
-          <p class="hero-area__description">Productos seleccionados con 33% de descuento</p>
-          <a href="#" class="link-btn link-btn-primary">Ver Consolas</a>
-        </div>
-      </section>
-      <section class="products">
-        <div class="container">
-          <div class="products-bar">
-            <div class="products-bar__options">
-              <h3 class="products-bar__title">StarWars</h3>
-              <a href="#" class="products-bar__see-more-link">Ver todo</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
+    </section>
+    <section class="products">
+      <div class="container products-contents">
+        <div class="products-bar">
+          <div class="products-bar__options">
+            <h3 class="products-bar__title">StarWars</h3>
+            <a href="#" class="products-bar__see-more-link" aria-label="Ver todos los productos relacionados con esta categoría">Ver todo</a>
           </div>
-          <div class="products-bar">
-            <div class="products-bar__options">
-              <h3 class="products-bar__title">Consolas</h3>
-              <a href="#" class="products-bar__see-more-link">Ver todo</a>
+          <div class="products-bar__products">
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
             </div>
             <div class="product">
               <img class="product__img" src="static/img/label-image.png" alt="">
               <h4 class="product__title">Producto XYZ</h4>
               <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
+              <a href="#" class="product__info-link">Ver producto</a>
             </div>
             <div class="product">
               <img class="product__img" src="static/img/label-image.png" alt="">
               <h4 class="product__title">Producto XYZ</h4>
               <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
+              <a href="#" class="product__info-link">Ver producto</a>
             </div>
             <div class="product">
               <img class="product__img" src="static/img/label-image.png" alt="">
               <h4 class="product__title">Producto XYZ</h4>
               <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
+              <a href="#" class="product__info-link">Ver producto</a>
             </div>
             <div class="product">
               <img class="product__img" src="static/img/label-image.png" alt="">
               <h4 class="product__title">Producto XYZ</h4>
               <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
+              <a href="#" class="product__info-link">Ver producto</a>
             </div>
             <div class="product">
               <img class="product__img" src="static/img/label-image.png" alt="">
               <h4 class="product__title">Producto XYZ</h4>
               <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-          </div>
-          <div class="products-bar">
-            <div class="products-bar__options">
-              <h3 class="products-bar__title">Diversos</h3>
-              <a href="#" class="products-bar__see-more-link">Ver todo</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
-            </div>
-            <div class="product">
-              <img class="product__img" src="static/img/label-image.png" alt="">
-              <h4 class="product__title">Producto XYZ</h4>
-              <p class="product__price">$ 60.00</p>
-              <a href="#" class="product__info-btn">Ver producto</a>
+              <a href="#" class="product__info-link">Ver producto</a>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="page-footer">
-      <div class="container">
-        <div class="page-footer-up">
-          <div class="page-footer__logo-wrapper">
-            <img src="static/img/icons/alura-geek-logo.svg" alt="Logo de AluraGeek: Imagen de un mando de videojuegos acompañado con el nombre de la empresa">
+        <div class="products-bar">
+          <div class="products-bar__options">
+            <h3 class="products-bar__title">Consolas</h3>
+            <a href="#" class="products-bar__see-more-link" aria-label="Ver todos los productos relacionados con esta categoría">Ver todo</a>
           </div>
-          <ul class="page-footer__links" role="list">
-            <li class="page-footer__item"><a href="#" class="page-footer__link">Quiénes somos</a></li>
-            <li class="page-footer__item"><a href="#" class="page-footer__link">Política de privacidad</a></li>
-            <li class="page-footer__item"><a href="#" class="page-footer__link">Porgama de fidelidad</a></li>
-            <li class="page-footer__item"><a href="#" class="page-footer__link">Nuestras Tiendas</a></li>
-            <li class="page-footer__item"><a href="#" class="page-footer__link">Quiero ser franquiciado</a></li>
-            <li class="page-footer__item"><a href="#" class="page-footer__link">Anuncie aquí</a></li>
-          </ul>
-          <div class="contact-form-wrapper">
-            <form action="/" class="contact-form">
-              <legend class="contact-form__title">Hable con nosotros</legend>
-              <input class="contact-form__name form-text-element" type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
-              <textarea class="contact-form__message form-text-element" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-              <button type="button" class="contact-form__send-btn btn btn-primary">Enviar mensaje</button>
-            </form>
+          <div class="products-bar__products">
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
           </div>
         </div>
-        <div class="page-footer-bottom">
-          <p>Desarrollado por Fulana de Tal</p>
-          <p>2021</p>
+        <div class="products-bar">
+          <div class="products-bar__options">
+            <h3 class="products-bar__title">Diversos</h3>
+            <a href="#" class="products-bar__see-more-link" aria-label="Ver todos los productos relacionados con esta categoría">Ver todo</a>
+          </div>
+          <div class="products-bar__products">
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+            <div class="product">
+              <img class="product__img" src="static/img/label-image.png" alt="">
+              <h4 class="product__title">Producto XYZ</h4>
+              <p class="product__price">$ 60.00</p>
+              <a href="#" class="product__info-link">Ver producto</a>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </section>
   </main>
+  <footer class="page-footer">
+    <div class="container page-footer-contents">
+      <div class="page-footer__info">
+        <div class="page-footer__logo-wrapper">
+          <img src="static/img/icons/alura-geek-logo.svg" alt="Logo de AluraGeek: Imagen de un mando de videojuegos acompañado con el nombre de la empresa">
+        </div>
+        <ul class="page-footer__links" role="list">
+          <li class="page-footer__item"><a href="#" class="page-footer__link">Quiénes somos</a></li>
+          <li class="page-footer__item"><a href="#" class="page-footer__link">Política de privacidad</a></li>
+          <li class="page-footer__item"><a href="#" class="page-footer__link">Porgama de fidelidad</a></li>
+          <li class="page-footer__item"><a href="#" class="page-footer__link">Nuestras Tiendas</a></li>
+          <li class="page-footer__item"><a href="#" class="page-footer__link">Quiero ser franquiciado</a></li>
+          <li class="page-footer__item"><a href="#" class="page-footer__link">Anuncie aquí</a></li>
+        </ul>
+      </div>
+      <div class="contact-form-wrapper">
+        <form action="" class="contact-form">
+          <legend class="contact-form__title">Hable con nosotros</legend>
+          <div class="input-box name-input-box">
+            <label for="nombre" class="visually-hidden">Nombre</label>
+            <input class="contact-form__name form-text-element" type="text" name="nombre" id="nombre" aria-placeholder="Escribe tu nombre" required>
+          </div>
+          <div class="input-box message-input-box">
+            <label for="mensaje" class="visually-hidden">Mensaje</label>
+            <textarea class="contact-form__message form-text-element" name="mensaje" id="mensaje" aria-placeholder="Escribe tu mensaje" required></textarea>
+          </div>
+          <button type="submit" class="contact-form__send-btn btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+    <div class="page-authoring-text">
+      <p>Desarrollado por Fulana de Tal</p>
+      <p>2021</p>
+    </div>
+  </footer>
   <script src="scripts/scripts.js" type="module"></script>
 </body>
 </html>
