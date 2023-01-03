@@ -1,0 +1,22 @@
+/* Login section */
+
+.login-form-wrapper {
+  background-color: var(--clr-accent-400);
+}
+
+.login-form {
+
+  width: 420px;
+  max-width: 95%;
+  margin-inline: auto;
+  padding-block: var(--section-gap-500);
+  
+  > * + * {
+    margin-top: 1.5625rem;
+  }
+  
+  &__title {
+    text-align: center;
+    font-weight: var(--fw-600);
+  }
+}

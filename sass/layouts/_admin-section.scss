@@ -1,0 +1,63 @@
+/* Admin section */
+
+.new-product-form-wrapper {
+  background-color: var(--clr-accent-400);
+}
+
+.new-product-form {
+
+  padding-block: var(--section-gap-500);
+  
+  > * + * {
+    margin-top: 1rem;
+  }
+  
+  &__title {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-600);
+  }
+
+  .input-box {
+    position: relative;
+  }
+
+  .input-box::before {
+    position: absolute;
+    width: 94.5%;
+    background-color: var(--clr-accent-100);
+    margin-left: 0.75rem;
+    padding-top: 0.47rem;
+    color: var(--clr-accent-350);
+    font-size: var(--fs-200);
+  }
+
+}
+
+.img-url-input-box::before {
+  content: 'URL de la imagen';
+}
+
+.category-input-box::before {
+  content: 'Categoría';
+}
+
+.product-name-input-box::before {
+  content: 'Nombre del producto';
+}
+
+.product-price-input-box::before {
+  content: 'Precio del producto';
+}
+
+.product-description-input-box::before {
+  content: 'Descripción del producto';
+}
+
+/* Desktop */
+@media screen and (min-width: 90em) {
+  .new-product-form {
+    width: 560px;
+    max-width: 95%;
+    margin-inline: auto;
+  }
+}
